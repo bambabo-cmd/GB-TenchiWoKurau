@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "repository": "bambabo-cmd/GB-TenchiWoKurau",
+  "documented_release": "v0.9.4",
+  "verification_date": "2026-09-29",
+  "timezone": "Asia/Seoul",
+  "source_rom": {
+    "size": 262144,
+    "md5": "8C69230B2E8BBE15CEE83E89A7CB19DC",
+    "crc32": "A9018354",
+    "sha1": "312BC91B1B857CC7EC0CB8BC7CFA80BFE10D7B4B",
+    "sha256": "2884676B3BB261204F480767BA716DFC5266E536B7628FC73F9243C1E0EFA8C7",
+    "filename": "Tenchi o Kurau (Japan).gb",
+    "platform": "Game Boy",
+    "region": "Japan",
+    "representation": "압축을 푼 무수정 원본 전체 파일"
+  },
+  "patches": [
+    {
+      "path": "GB_Tenchi_KR_v094_260927.xdelta",
+      "format": "xdelta",
+      "github_blob_sha": "545836b8bd12921de54005f168634ca68ad0cd11",
+      "patch_checksums": {
+        "size": 125130,
+        "md5": "8CA15C892A0F483762DE49FCBA690B08",
+        "crc32": "1307C652",
+        "sha1": "D73F69C83FABA442CD2972D715A06A2BB14FDB02",
+        "sha256": "04C29DA7F5FD66833136C277685527690C20193902D7BF3E33C1CB9A669886A4"
+      },
+      "patched_rom": {
+        "size": 1048576,
+        "md5": "69C1903B2F76A896E049F0CA42EED962",
+        "crc32": "BF1F8EF0",
+        "sha1": "78931BAF7AB0AD39CD2F923443B6064BF0F0E955",
+        "sha256": "EF347B089F9BC8AF23592EE6633C75CF10DF08B8C7C0C92A2E531E902E1D355D"
+      },
+      "verification": "업로드된 Git blob SHA와 로컬 패치 일치 확인 후 지원 원본에 직접 재적용. 결과 전체 파일의 체크섬 계산."
+    }
+  ],
+  "history": {
+    "first_work_date": null,
+    "earliest_verified_record_date": "2026-09-20",
+    "date_evidence": "work/reports/*_v07.json의 보존 파일 수정 시각. 파일 수정 시각은 최초 착수일을 증명하지 않는다.",
+    "revision_label": "v0.9.4",
+    "recorded_revision_count": 15,
+    "recorded_revision_ids": [
+      7,
+      9,
+      72,
+      74,
+      75,
+      76,
+      80,
+      82,
+      83,
+      85,
+      86,
+      91,
+      92,
+      93,
+      94
+    ],
+    "revision_count_definition": "번호가 붙은 보존 ROM·패치·문서의 고유 버전 수. 실패/철회 후보 포함 가능. 실제 수정 작업 횟수와 다름. Front Mission은 WIP_INDEX, Scurge는 001~010 작업 기록을 사용. 공통 규칙 파일/외부 도구 날짜 제외.",
+    "total_modification_count": null,
+    "release_work_date": "2026-09-27",
+    "final_project_completion_date": null,
+    "completion_status": "전체 작업 완료 기록 미확정; 진행 중인 검수와 알려진 한계를 보존",
+    "additional_context": "업로드된 패치명은 GB_Tenchi_KR_v094_260927.xdelta이다. 기존 v0.9.4 안내의 _from_Japan 파일과 내용이 동일한 것을 Git blob SHA로 대조하고 원본 재적용 결과를 확인했다."
+  },
+  "verification_scope": "파일 식별 및 패치 적용 결과 검증. 이번 문서 작업에서 에뮬레이터 실행/전체 플레이 검증을 새로 수행한 것은 아님.",
+  "known_limitations": "사용자가 엔딩까지 진행한 기록은 있으나 제작 측의 전체 자연 진행 재검수와 실기·독립 에뮬레이터의 최신판 전체 검증은 완료 기록이 없다."
+}
